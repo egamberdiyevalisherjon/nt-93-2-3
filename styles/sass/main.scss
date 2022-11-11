@@ -1,0 +1,116 @@
+// variables
+$qanadir: yellow;
+$soya: 0 0 20px gray, 0 0 50px black, 0 0 75px pink;
+
+/* CSS Custom Properties || CSS Variables */
+/* :root {
+  --asosiy-rang: red;
+} */
+
+/* header#main-header */
+
+// Nesting => element, property
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+ul li.birxil {
+  color: red;
+}
+
+header#main-header {
+  position: sticky;
+  top: 0;
+
+  .container {
+    width: 1400px;
+    margin: 0 auto;
+    .flex {
+      display: flex;
+      .portion {
+        flex: 1;
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  div#display.none {
+    display: none;
+  }
+
+  .container.flex {
+    gap: 3rem;
+
+    nav.main-nav {
+      background-color: #000;
+
+      li {
+        // padding-top: 10px;
+        // padding-bottom: 10px;
+        // padding-left: 15px;
+        // padding-right: 15px;
+        padding: {
+          top: 10px;
+          left: 20px;
+        }
+        font: {
+          size: 20px;
+          weight: 900;
+          family: sans-serif;
+          style: italic;
+        }
+      }
+    }
+  }
+}
+
+// header#main-header {
+//   position: sticky;
+//   top: 0;
+// }
+
+// header#main-header .container.flex {
+//   gap: 3rem;
+// }
+
+// header#main-header .container.flex nav.main-nav {
+//   background-color: #000;
+// }
+
+// header#main-header .container.flex .main-nav li {
+//   padding: 10px 15px;
+// }
+
+h1 {
+  background-color: $qanadir;
+}
+
+h1:hover {
+  box-shadow: $soya;
+}
+
+h2 {
+  color: $qanadir;
+}
+
+p {
+  border: 5px solid $qanadir;
+}
+
+li:hover {
+  color: $qanadir;
+}
+
+body {
+  font-family: sans-serif;
+}

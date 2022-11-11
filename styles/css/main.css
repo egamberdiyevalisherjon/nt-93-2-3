@@ -1,0 +1,79 @@
+/* CSS Custom Properties || CSS Variables */
+/* :root {
+  --asosiy-rang: red;
+} */
+/* header#main-header */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+ul li.birxil {
+  color: red;
+}
+
+header#main-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+header#main-header .container {
+  width: 1400px;
+  margin: 0 auto;
+}
+header#main-header .container .flex {
+  display: flex;
+}
+header#main-header .container .flex .portion {
+  flex: 1;
+}
+header#main-header .container .flex .portion img {
+  max-width: 100%;
+}
+header#main-header div#display.none {
+  display: none;
+}
+header#main-header .container.flex {
+  gap: 3rem;
+}
+header#main-header .container.flex nav.main-nav {
+  background-color: #000;
+}
+header#main-header .container.flex nav.main-nav li {
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+h1 {
+  background-color: yellow;
+}
+
+h1:hover {
+  box-shadow: 0 0 20px gray, 0 0 50px black, 0 0 75px pink;
+}
+
+h2 {
+  color: yellow;
+}
+
+p {
+  border: 5px solid yellow;
+}
+
+li:hover {
+  color: yellow;
+}
+
+body {
+  font-family: sans-serif;
+}/*# sourceMappingURL=main.css.map */
